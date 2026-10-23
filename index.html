@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="ppt">
+      <label>Pedra</label>
+      <label>Papel</label>
+      <label>Tesoura</label>
+    </div>
+
+    <div id="score">
+      <label id="resultado"> Escolha uma opção </label>
+
+      <div id="placar-area">
+        <label id="pontuacao"> Pontuação </label>
+
+        <div id="placares">
+          <span>Jogador</span>
+
+          <output id="placar1" class="placar">0</output>
+
+          <span>X</span>
+
+          <output id="placar2" class="placar">0</output>
+
+          <span>Computador</span>
+        </div>
+      </div>
+
+      <div id="opcoes">
+        <img id="papel" src="/papel.png" alt="Papel" />
+        <img id="pedra" src="/pedra.png" alt="Pedra" />
+        <img id="tesoura" src="/tesoura.png" alt="Tesoura" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
